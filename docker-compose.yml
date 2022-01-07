@@ -24,5 +24,3 @@ services:
     command: sh -c "cd frontend && PORT=3001 yarn start"
     ports:
       - "3001:3001"
-volumes:
-  mysql-data:
