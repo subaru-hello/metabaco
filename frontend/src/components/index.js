@@ -33,7 +33,7 @@ class Square extends React.Component {
     //【関数を書く場所】
     //SquareでボタンがクリックされたらBoardのhandleClickが発火するようにする
     renderSquare(i) {
-      //小要素であるSquareをimportしている
+      //小要素であるSquareをimportしてい
       return <Square  
       value={i}
       onClick={()=> this.handleClick(i)}
