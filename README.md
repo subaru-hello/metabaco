@@ -12,7 +12,7 @@ $ docker compose build
 # frontendの環境構築
 ### mainディレクトリにて下記コマンドを実行
 ```
-$ docker compose run --rm frontend sh -c "yarn global add create-react-app && create-react-app ./frontend --template typescript"
+$ docker-compose run --rm frontend sh -c "yarn global add create-react-app && create-react-app ./frontend --template typescript"
 ```
 
 # Docker起動方法
